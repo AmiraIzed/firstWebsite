@@ -1,0 +1,259 @@
+body {
+    font-size: 77%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: lightgray;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+h1 {
+    color:darkgreen;
+    font-size: 2em;
+    margin: .5em 0 .5em 0;
+    padding: 0;
+
+}
+
+h2 {
+    color: darkgreen;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: .5em 0 .35em 0;
+}
+
+p{
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color:darkgreen;
+    padding:0px;
+    margin: 0px .5em .75em 0px;
+}
+
+ol {
+
+    font-size: 1.2em;
+    margin: 0 0 0 1em;
+    padding: 0 0 0 1em;
+}
+
+ol li {
+
+    margin: 0;
+    padding: 0 0 .2em;
+}
+
+a, a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    color: darkred;
+}
+
+hr {
+    
+    padding: 0;
+    margin: 1.5em 1.5em .75em .5em;
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px
+    padding 0 3.0em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div.clear {
+    clear: both;
+    font-size: 1%;
+}
+header {
+
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: url(brooke-lark-295590-unsplash.jpg);
+}
+
+header h1 {
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+color darkgreen;
+font-size: 7.5em;
+letter-spacing: -.025em;
+margin: 0;
+}
+
+header h2 {
+font-weight: 900;
+color: darkgreen;
+font-size: 1.9em;
+margin: -.4em 0 0 1em;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+}
+
+nav {
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: .06em;
+    padding: 1em 1em .5em;
+    margin: 1em 0;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, li a:visited {
+    text-decoration: none;
+    padding: .3em .6em;
+}
+
+nav li a:hover {
+    color: darkred;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+nav#utilityMenu {
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: .35em;
+    background-color: rgb(red, green, blue);
+    height: 1.3em;
+}
+
+nav#utilityMenu li {
+    padding: 0 .25em 0 .2em;
+    vertical-align: middle;
+}
+
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+    color: darkgreen;
+    text-decoration: black;
+    display: inline-block;
+    height: 1.3em;
+    padding: .5em;
+    margin: -.4em 0 0 0;
+    font-size: .9em;
+}
+
+nav#utilityMenu ul li.acctNav a.active {
+    background-color: transparent;
+}
+nav#utilityMenu li a, nav#utilityMenu li a:visited { padding: 1px;}
+nav#utilityMenu li a:hover {background-color: transparent;}
+nav#utilityMenu ul li input#search {
+    vertical-align: middle;
+    margin: 1 1 1 2em;
+}
+
+nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before {
+    content: "|";
+    color: green;
+}
+
+section#sidebar {
+    width: 190px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: lightseagreen;
+    margin: 1.5em 4em 3em 1.5em;
+    padding: 5.7em 4.9em 8em 3.7em;
+    border: darkgreen 5px;
+}
+
+section #page.css {
+    background-color: darkgreen;
+    margin: 0 0 2em;
+    padding: 6.5em 0 2em 1.5em;
+    display:inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+}
+
+section div.panel {
+    float: left;
+    position: relative;
+    width: 300px;
+    margin: 0 0.5em 2em .5em;
+    padding: 1em;
+    background-color: transparent;
+    border: green solid 2px;
+    border-radius: .6em;
+}
+
+section div.panel img.sauces{
+    width:299px;
+
+}
+
+footer {
+    background-color: lightseagreen;
+    height: 70px;
+
+    font-size: 1.2em;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    padding: 1.5em 2em;
+}
+
+footer ul#menuFooter {
+    display: inline block;
+    list-style: none;
+    margin: 1 1 2 3em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 .9em 0 0;
+    margin:0;
+}
+
+footer ul li::before {
+    content: "|";
+    padding-right: .9em;
+}
+footer a, footer a:visited {
+    color: #ffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+
+button {
+    color: green;
+    background-color: white;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    border: 1px solid green;
+    text-transform: uppercase;
+}
+
+button hover {
+    background-color: darkred;
+    border: 1px solid white;
+}
